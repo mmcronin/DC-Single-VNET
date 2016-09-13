@@ -77,7 +77,7 @@
         "artifactsBaseUrl": "",
         "description": "URL to acquire other templates"
       },
-      "defaultValue": "https://raw.githubusercontent.com/mmcronin/SP3VM/master/SP-3-VM"
+      "defaultValue": "https://raw.githubusercontent.com/mmcronin/DC-Single-VNET/master/DC"
     },
     "storageAccountNamePrefix": {
       "type": "string",

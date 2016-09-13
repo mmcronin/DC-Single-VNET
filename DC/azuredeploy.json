@@ -62,7 +62,7 @@
       "metadata": {
         "description": "The size of the AD VM Created"
       },
-      "defaultValue": "Standard_DS2"
+      "defaultValue": "Standard_DS1_V2"
     },
     "domainName": {
       "type": "string",

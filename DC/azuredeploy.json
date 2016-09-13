@@ -99,7 +99,7 @@
   },
   "variables": {
     "assetLocation": "[concat(parameters('baseURL'),'/dsc')]",
-    "adVMName": [ "parameters('adVmName')" ],
+    "adVMName": "[parameters('adVmName')]",
     "LBFE": "LBFE",
     "LBBE": "LBBE",
     "RDPNAT": "RDP",

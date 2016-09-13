@@ -28,7 +28,7 @@
       "metadata": {
         "description": "The name of the Domain Controller"
       },
-      "defaultValue": "clientsqa-dc1"
+      "defaultValue": "clientsqa-dc"
     },
     "adSubnet": {
       "type": "string",
@@ -99,7 +99,7 @@
   },
   "variables": {
     "assetLocation": "[concat(parameters('baseURL'),'/dsc')]",
-    "adVMName": "adVmName",
+    "adVMName": [ "parameters('adVmName')" ],
     "LBFE": "LBFE",
     "LBBE": "LBBE",
     "RDPNAT": "RDP",

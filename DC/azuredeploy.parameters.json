@@ -18,7 +18,7 @@
             "value": "clientsqa"
         },
          "adVMSize": {
-            "value": "Standard_DS1v2"
+            "value": "Standard_D1_v2"
         }
      }
 }
